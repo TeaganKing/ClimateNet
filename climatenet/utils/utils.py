@@ -28,8 +28,8 @@ class Config():
     '''
 
     def __init__(self, path: str):
-        self.config_dict = json.load(open(path))
 
+        self.config_dict = json.load(open(path))
         # TODO: Check structure
 
         self.architecture = self.config_dict['architecture']
